@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form action="">
+      <div>
+        <label for="fname">First Name</label>
+        <input type="text" name="fname" id="fname" />
+      </div>
+      <div>
+        <label for="lname">Last Name</label>
+        <input type="text" name="lname" id="lname" />
+      </div>
+
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" />
+      </div>
+      <div>
+        <label for="cars">Choose a Car:</label>
+        <select name="cars" id="cars">
+          <option value="volvo">Volvo</option>
+          <option value="mercedes-benz">Mercedes Benz</option>
+          <option value="audi">Audi</option>
+          <option value="fiat">Fiat</option>
+        </select>
+      </div>
+      <div>
+        <input type="checkbox" id="vehicle1" name="vehicle" value="bike" />
+        <label for="vehicle1">I have a bike</label><br />
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="car" />
+        <label for="vehicle2">I have a car</label><br />
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="boat" />
+        <label for="vehicle3">I have a boat</label>
+      </div>
+      <div>
+        <p>What's your Favorite Language</p>
+        <input type="radio" id="html" name="fav_language" value="HTML" />
+        <label for="html">HTML</label><br />
+        <input type="radio" id="css" name="fav_language" value="CSS" />
+        <label for="css">CSS</label><br />
+        <input
+          type="radio"
+          id="javascript"
+          name="fav_language"
+          value="JavaScript"
+        />
+        <label for="javascript">JavaScript</label>
+      </div>
+      <div>
+        <label for="css">Upload a Document</label>
+        <input type="file" name="date" id="time" value="file" />
+      </div>
+      <textarea name="comment">Enter text here...</textarea>
+      <input type="text" name="" placeholder="Your name" id="" />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
